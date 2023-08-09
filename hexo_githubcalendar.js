@@ -1,6 +1,6 @@
-function GithubCalendar(git_githubapiurl, git_color, git_user) {
+function GithubCalendar(git_color, git_user) {
   if (document.getElementById("github_container")) {
-    var github_canlendar = (git_user, git_githubapiurl, git_color) => {
+    var github_canlendar = (git_user, git_color) => {
       var git_fixed = "fixed";
       var git_px = "px";
       var git_month = [
@@ -239,8 +239,8 @@ function GithubCalendar(git_githubapiurl, git_color, git_user) {
         const response = await fetch(url);
         return response.text();
       };
-
-      requestData(`https://github.com/${user}`)
+      
+      requestData(`https://github.com/${git_user}`)
         .then((target) => {
           let regex_date = /data-date="(.*?)" data-level/g;
           let regex_count = /<span class="sr-only">(.*?) contribution/g;
@@ -424,6 +424,6 @@ function GithubCalendar(git_githubapiurl, git_color, git_user) {
     };
     var github_container = document.getElementById("github_container");
     var github_loading = document.getElementById("github_loading");
-    github_canlendar(git_user, git_githubapiurl, git_color);
+    github_canlendar(git_user, git_color);
   }
 }

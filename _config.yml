@@ -18,7 +18,7 @@ githubcalendar:
   pc_minheight: 280px
   mobile_minheight: 0px
   color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']"
-  calendar_js: https://unpkg.com/hexo-github-calendar-lite@latest/hexo_githubcalendar.js
+  calendar_js: https://unpkg.com/hexo-githubcalendar-lite@1.0.0/hexo_githubcalendar.js
   plus_style: ""
 
 # butterfly
@@ -34,7 +34,7 @@ githubcalendar:
   pc_minheight: 280px
   mobile_minheight: 0px
   color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']"
-  calendar_js: https://unpkg.com/hexo-github-calendar-lite@latest/hexo_githubcalendar.js
+  calendar_js: https://unpkg.com/hexo-githubcalendar-lite@1.0.0/hexo_githubcalendar.js
   plus_style: ""
 
 # Matery
@@ -50,7 +50,7 @@ githubcalendar:
   pc_minheight: 280px
   mobile_minheight: 0px
   color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']"
-  calendar_js: https://unpkg.com/hexo-github-calendar-lite@latest/hexo_githubcalendar.js
+  calendar_js: https://unpkg.com/hexo-githubcalendar-lite@1.0.0/hexo_githubcalendar.js
   plus_style: ""
 
 # MengD
@@ -66,5 +66,5 @@ githubcalendar:
   pc_minheight: 280px
   mobile_minheight: 0px
   color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']"
-  calendar_js: https://unpkg.com/hexo-github-calendar-lite@latest/hexo_githubcalendar.js
+  calendar_js: https://unpkg.com/hexo-githubcalendar-lite@1.0.0/hexo_githubcalendar.js
   plus_style: ""

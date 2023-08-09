@@ -47,14 +47,12 @@ hexo.extend.filter.register('after_generate',function(){
         var plus_style = config.githubcalendar.plus_style;
         var githubcalendar_html = config.githubcalendar.githubcalendar_html;
         var github_user = config.githubcalendar.user;
-        var github_api = config.githubcalendar.api;
         var pc_minheight = config.githubcalendar.pc_minheight;
         var mobile_minheight = config.githubcalendar.mobile_minheight;
         var user_info_js = `
   <script data-pjax src="${calendar_js}"></script>
   <script data-pjax>
         function GithubCalendarConfig(){
-            var git_githubapiurl ="${github_api}?${github_user}";
             var git_color =${github_color};
             var git_user ="${github_user}";
             var parent_div_git = ${get_layout};
@@ -64,7 +62,7 @@ hexo.extend.filter.register('after_generate',function(){
                 // parent_div_git.innerHTML=git_div_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
                 parent_div_git.insertAdjacentHTML("afterbegin",git_div_html) // 有报错，但不影响使用(支持pjax跳转)
             };
-            GithubCalendar(git_githubapiurl,git_color,git_user)
+            GithubCalendar(git_color,git_user)
         }
         if(${get_layout}){
             GithubCalendarConfig()
